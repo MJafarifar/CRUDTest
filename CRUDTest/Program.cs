@@ -72,17 +72,7 @@ namespace CRUDTest
             var state=ctx.Find<TestState>(2);
             ctx.Remove(state);
             ctx.SaveChanges();
-            //var parent = new Parent
-            //{
-            //    Name = "Parnet",
-            //    Children = new List<Child> {
-            //        new Child
-            //        {
-            //            Name="Child01"
-            //        }
-
-            //    }
-            //};
+           
         }
 
         private static void CheckState()
